@@ -5,6 +5,6 @@ Secuditor project.
 
 All scripts in this repository are licensed under the MIT License and may be
 used independently.  
-The full Secuditor Free application is distributed separately as closed-source
-freeware:
-https://github.com/secuditor/secuditor-free
+
+The full [Secuditor Free](https://github.com/secuditor/secuditor-free) application is distributed separately as closed-source
+freeware.
