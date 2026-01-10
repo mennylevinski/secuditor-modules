@@ -1,4 +1,4 @@
-# Requires admin Permissions
+# Requires admin permissions
 
 import ctypes
 import win32security
@@ -122,4 +122,5 @@ if __name__ == "__main__":
     print("")
 
     os.system("pause")
+
 
