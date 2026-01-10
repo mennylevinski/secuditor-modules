@@ -6,8 +6,6 @@ For the full application, visit [Secuditor Free](https://github.com/secuditor/se
 
 <br>
 
-## The List
-
 - `sp_gateway_detection.py` – Detects the local network's default gateway and public IP.
 - `sp_installed_apps.py` – Generates a list of applications installed on the device.
 - `sp_network_settings.py` – Presents the device's network adapters.
