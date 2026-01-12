@@ -143,7 +143,7 @@ def _run_ps(cmd):
 # --- PnP scanning ---
 PNP_CLASS_MAP = {
     "Printers": "Printer",
-    "Cameras": "Image",             # was "Camera"
+    "Cameras": "Image", 
     "Bluetooth Devices": "Bluetooth",
     "Biometric Devices": "Biometric",
 }
