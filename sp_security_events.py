@@ -1,8 +1,9 @@
-# Requires admin permissions
+"""
+Outputs recent Windows security event log entries (requires admin permissions).
+"""
 
 import os
 import subprocess
-
 
 # --- Check the latest 24 hours Windows Security events ---
 def get_security_events(report_widget=None):
@@ -143,7 +144,6 @@ def format_security_events(data):
         lines.append("    None Detected")
 
     return "\n".join(lines)
-
 
 if __name__ == "__main__":
     print("Security Events Report")
