@@ -384,6 +384,7 @@ def format_remote_server_settings(settings):
     
     return "\n".join(report)
 
+# --- Output ---
 if __name__ == "__main__":
     print("Remote Server Report")
     print("–" * len("Remote Server Report"))
