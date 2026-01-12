@@ -197,6 +197,7 @@ def get_hardware_report():
 
     return "\n".join(lines)
 
+# --- Output ---
 if __name__ == "__main__":
     print("System & Hardware Report")
     print("–" * len("System & Hardware Report"))
