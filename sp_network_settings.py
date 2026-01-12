@@ -151,6 +151,7 @@ def get_network_settings():
 
     return "\n".join(report)
 
+# --- Output ---
 if __name__ == "__main__":
     print("Network Settings Report")
     print("–" * len("Network Settings Report"))
