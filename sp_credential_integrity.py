@@ -9,7 +9,6 @@ import winreg
 import hashlib
 import psutil
 
-# --- Credential Security Checks ---
 # --- Hide ps blue screens ---
 def run_hidden_command(cmd_list):
     """
@@ -179,6 +178,7 @@ def run_credential_integrity_checks():
 
     return "\n".join(report)
 
+# --- Output ---
 if __name__ == "__main__":
     print("Credential Integrity Report")
     print("–" * len("Credential Integrity Report"))
