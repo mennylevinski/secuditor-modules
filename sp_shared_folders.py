@@ -115,6 +115,7 @@ def get_shared_folders():
 
     return "\n".join(output)
 
+# --- Output ---
 if __name__ == "__main__":
     print("Shared Folders Mapping")
     print("–" * len("Shared Folders Mapping"))
