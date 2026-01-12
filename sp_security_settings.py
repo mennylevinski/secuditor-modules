@@ -1,3 +1,7 @@
+"""
+Reviews core Windows security posture settings.
+"""
+
 import os
 import re
 import sys
@@ -6,7 +10,6 @@ import ctypes
 import string
 import winreg
 import datetime
-
 
 # --- Get the basic security settings ---
 # --- BitLocker check ---
@@ -395,7 +398,6 @@ def get_security_settings():
 
     return format_security_settings(result)
 
-
 def format_security_settings(settings):
     report = [""]
 
@@ -421,7 +423,6 @@ def format_security_settings(settings):
             report.append("–" * 40)
 
     return "\n".join(report)
-
 
 if __name__ == "__main__":
     print("Security Settings Report")
