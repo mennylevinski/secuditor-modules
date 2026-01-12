@@ -1,8 +1,11 @@
+"""
+Presents the device's network adapters and configurations.
+"""
+
 import os
 import re
 import json
 import subprocess
-
 
 # --- Detect network adapter headers (Ethernet, Wi-Fi, etc.) ---
 def get_network_settings():
@@ -148,7 +151,6 @@ def get_network_settings():
 
     return "\n".join(report)
 
-
 if __name__ == "__main__":
     print("Network Settings Report")
     print("–" * len("Network Settings Report"))
@@ -156,4 +158,3 @@ if __name__ == "__main__":
     print("")
 
     os.system("pause")
-
