@@ -224,6 +224,7 @@ def check_ntlm_policy():
     # Return the verdict as a plain string
     return verdict_text
 
+# --- Output ---
 if __name__ == "__main__":
     print("Domain Settings Report")
     print("–" * len("Domain Settings Report"))
