@@ -1,3 +1,7 @@
+"""
+Presents a detailed report of the system's settings and inventory.
+"""
+
 import os
 import sys
 import platform
@@ -6,7 +10,6 @@ import subprocess
 import winreg
 import psutil
 import json
-
 
 # --- Collect basic OS and Resources info using platform module ---
 def get_system_settings():
@@ -193,7 +196,6 @@ def get_hardware_report():
             lines.append("–" * 40)
 
     return "\n".join(lines)
-
 
 if __name__ == "__main__":
     print("System & Hardware Report")
