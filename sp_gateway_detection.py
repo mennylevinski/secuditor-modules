@@ -1,3 +1,7 @@
+"""
+Detects the local network's default gateway and public IP.
+"""
+
 import subprocess
 import platform
 import warnings
@@ -5,7 +9,6 @@ import os
 import re
 import requests
 from urllib3.exceptions import InsecureRequestWarning
-
 
 # --- Gateway device settings ---
 # --- Suppress HTTPS certificate warnings (safe for local routers) ---
@@ -208,9 +211,7 @@ def detect_gateway_device():
             if i != len(keys) - 1 and keys[i + 1] not in ("Resources", "Disks"):
                 output.append("–" * 40)
 
-
     return "\n".join(output)
-
 
 if __name__ == "__main__":
     print("Gateway Detection Report")
