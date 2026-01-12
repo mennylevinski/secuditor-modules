@@ -213,6 +213,7 @@ def detect_gateway_device():
 
     return "\n".join(output)
 
+# --- Output ---
 if __name__ == "__main__":
     print("Gateway Detection Report")
     print("–" * len("Gateway Detection Report"))
