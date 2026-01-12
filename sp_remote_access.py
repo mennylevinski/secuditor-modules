@@ -1,9 +1,12 @@
+"""
+Detects remote access capabilities and services exposure.
+"""
+
 import os
 import subprocess
 import winreg
 import json
 import socket
-
 
 # --- Remote Access Settings ---
 def get_remote_access_settings():
@@ -447,7 +450,6 @@ def format_remote_access_settings(settings):
             report.append("–" * 40)
 
     return "\n".join(report)
-
 
 if __name__ == "__main__":
     print("Remote Access Report")
