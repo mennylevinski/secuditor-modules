@@ -7,7 +7,7 @@ import json
 import hashlib
 
 # Static file path (edit this to match your environment)
-FILE_PATH = r"C:\Users\User\Desktop\SecuditorFree.exe"
+FILE_PATH = r"C:\Users\User\Desktop\Filename.exe"
 
 def calculate_file_hashes(file_path):
     """
