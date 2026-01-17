@@ -1,3 +1,5 @@
+# Copyright (c) 2025 Menny Levinski
+
 """
 Audits Windows credential protection mechanisms.
 """
@@ -186,3 +188,4 @@ if __name__ == "__main__":
     print("")
 
     os.system("pause")
+
