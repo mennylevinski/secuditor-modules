@@ -1,3 +1,5 @@
+# Copyright (c) 2025 Menny Levinski
+
 """
 Outputs a list of applications installed on the device.
 """
