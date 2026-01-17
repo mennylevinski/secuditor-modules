@@ -1,3 +1,5 @@
+# Copyright (c) 2025 Menny Levinski
+
 """
 Evaluates local and domain affiliated password policies.
 """
