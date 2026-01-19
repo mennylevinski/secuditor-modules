@@ -2,6 +2,8 @@
 
 """
 Audits Windows credential protection mechanisms.
+
+Third-party: psutil
 """
 
 import os
