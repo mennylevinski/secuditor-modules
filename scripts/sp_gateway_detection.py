@@ -2,6 +2,8 @@
 
 """
 Detects the local network's default gateway and public IP.
+
+Third-party: requests (urllib3)
 """
 
 import subprocess
